@@ -231,9 +231,9 @@ minetest.register_node("mcl_chests:"..basename, {
 		"list[nodemeta:"..pos.x..","..pos.y..","..pos.z..";main;0,0.5;9,3;]"..
 		default.get_hotbar_bg(0,0.5,9,3)..
 		"label[0,4.0;"..minetest.formspec_escape(minetest.colorize("#fff", S("Inventory"))).."]"..
-		"list[current_player;main;0,4.5;9,3;9]"..
+		"list[current_player;main;0,4.5;8,3;8]"..
 		default.get_hotbar_bg(0,4.5,9,3)..
-		"list[current_player;main;0,7.74;9,1;]"..
+		"list[current_player;main;0,7.74;8,1;]"..
 		default.get_hotbar_bg(0,7.74,9,1)..
 		"listring[nodemeta:"..pos.x..","..pos.y..","..pos.z..";main]"..
 		"listring[current_player;main]")
@@ -355,9 +355,9 @@ minetest.register_node("mcl_chests:"..basename.."_left", {
 		"list[nodemeta:"..pos_other.x..","..pos_other.y..","..pos_other.z..";main;0,3.5;9,3;]"..
 		default.get_hotbar_bg(0,3.5,9,3)..
 		"label[0,7;"..minetest.formspec_escape(minetest.colorize("#fff", S("Inventory"))).."]"..
-		"list[current_player;main;0,7.5;9,3;9]"..
+		"list[current_player;main;0,7.5;8,3;8]"..
 		default.get_hotbar_bg(0,7.5,9,3)..
-		"list[current_player;main;0,10.75;9,1;]"..
+		"list[current_player;main;0,10.75;8,1;]"..
 		default.get_hotbar_bg(0,10.75,9,1)..
 		-- BEGIN OF LISTRING WORKAROUND
 		"listring[current_player;main]"..
@@ -480,9 +480,9 @@ minetest.register_node("mcl_chests:"..basename.."_right", {
 		"list[nodemeta:"..pos.x..","..pos.y..","..pos.z..";main;0,3.5;9,3;]"..
 		default.get_hotbar_bg(0,3.5,9,3)..
 		"label[0,7;"..minetest.formspec_escape(minetest.colorize("#fff", S("Inventory"))).."]"..
-		"list[current_player;main;0,7.5;9,3;9]"..
+		"list[current_player;main;0,7.5;8,3;8]"..
 		default.get_hotbar_bg(0,7.5,9,3)..
-		"list[current_player;main;0,10.75;9,1;]"..
+		"list[current_player;main;0,10.75;8,1;]"..
 		default.get_hotbar_bg(0,10.75,9,1)..
 		-- BEGIN OF LISTRING WORKAROUND
 		"listring[current_player;main]"..
@@ -680,9 +680,9 @@ local formspec_ender_chest = "size[9,8.75]"..
 	"list[current_player;enderchest;0,0.5;9,3;]"..
 	default.get_hotbar_bg(0,0.5,9,3)..
 	"label[0,4.0;"..minetest.formspec_escape(minetest.colorize("#fff", S("Inventory"))).."]"..
-	"list[current_player;main;0,4.5;9,3;9]"..
+	"list[current_player;main;0,4.5;8,3;8]"..
 	default.get_hotbar_bg(0,4.5,9,3)..
-	"list[current_player;main;0,7.74;9,1;]"..
+	"list[current_player;main;0,7.74;8,1;]"..
 	default.get_hotbar_bg(0,7.74,9,1)..
 	"listring[current_player;enderchest]"..
 	"listring[current_player;main]"
@@ -783,9 +783,9 @@ local formspec_shulker_box = "size[9,8.75]"..
 	"list[current_name;main;0,0.5;9,3;]"..
 	default.get_hotbar_bg(0,0.5,9,3)..
 	"label[0,4.0;"..minetest.formspec_escape(minetest.colorize("#fff", S("Inventory"))).."]"..
-	"list[current_player;main;0,4.5;9,3;9]"..
+	"list[current_player;main;0,4.5;8,3;8]"..
 	default.get_hotbar_bg(0,4.5,9,3)..
-	"list[current_player;main;0,7.74;9,1;]"..
+	"list[current_player;main;0,7.74;8,1;]"..
 	default.get_hotbar_bg(0,7.74,9,1)..
 	"listring[current_name;main]"..
 	"listring[current_player;main]"
