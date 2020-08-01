@@ -5,3 +5,5 @@
 3. Edit the HUD of the chests to make it like default chests
 4. add craft to trap chest
 5. Fix the inventory to 8*4
+## 1/8/2020
+1. Add the game detect function
